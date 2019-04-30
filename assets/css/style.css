@@ -57,7 +57,13 @@ li a:hover:not(.active) {
     font-size: 90px;
     line-height: normal;
     color: #4681B8;
+    animation: fadeText; 
+    animation-duration: 2s;
 }
+@keyframes fadeText {
+    from {color:white;}
+    to {color: #4681B8;}
+  }
 #threePicsContainer {
     text-align: center;
 }
@@ -91,6 +97,8 @@ li a:hover:not(.active) {
     font-size: 80px;
     line-height: normal;
     color: #4681B8;
+    animation: fadeText; 
+    animation-duration: 2s;
 }
 #myPic {
     position: relative;
@@ -149,6 +157,8 @@ li a:hover:not(.active) {
     color: #4681B8;
     text-align: center;
     overflow: hidden;
+    animation: fadeText; 
+    animation-duration: 2s;
 }
 
 #playlistsContainer {
