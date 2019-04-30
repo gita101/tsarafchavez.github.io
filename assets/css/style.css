@@ -4,6 +4,7 @@ body {
 }
 nav {
     /* padding-top: 0.1px; */
+    position: relative;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -18,7 +19,7 @@ li {
 li a {
     color: white;
     /* text-align: center; */
-    padding: 14px 16px;
+    padding: 16px 2px;
     text-decoration: none;
 }
 li a:hover:not(.active) {
@@ -34,9 +35,10 @@ li a:hover:not(.active) {
 }
 
 .downButton {
+    
     /* width: 100px;
     height: 50px; */
-    position: absolute;
+    position: relative;
     top: 85%;
     left: 50%;
     margin-top: -25px;
